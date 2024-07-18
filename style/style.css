@@ -5,6 +5,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -23,10 +24,12 @@
 .description{
     font-size: 0.89rem ;
     color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5rem;
 }
 .btn{
     font-size: 1rem;
     font-weight: 500;
+    line-height: 1.4rem;
     color: white;
     background-color: rgb(230, 83, 60);
     padding: 0.7rem 2rem;
@@ -37,12 +40,14 @@
 .title{
     font-size: 3rem;
     font-weight: 700;
+    line-height: 120%;
     color: white;
 }
 .sub-title{
   
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 600;
+    line-height: 120%;
 
 }
 a{
@@ -51,7 +56,7 @@ a{
 
 /* header*/
 header{
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     background-color: rgba(0, 0, 0, 0.85);
     
@@ -60,7 +65,7 @@ header{
 /* navbar start*/
 nav{
     
-    padding: 3.5rem 0;
+    padding: 3.5rem 0 1.5rem;
     justify-content: space-between;
     align-items: center;
    
@@ -128,16 +133,19 @@ nav  li> a{
     font-size: 4.4rem;
     font-weight: 800;
     color: white;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
+    line-height: 120%;
 
 }
 .banner-details p{
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
 }
 .shape{
     font-weight: 100;
+    font-family: "Dancing Script", cursive;
+  
     
-    font-family: "Dancing Script",cursive;
+    
 }
 .download-btn{
     font-size: 1rem;
@@ -181,6 +189,9 @@ nav  li> a{
     font-size: 1.8rem;
     font-weight: 500;
     color: white;
+}
+.tag-2 button>i{
+    display: none;
 }
 
 
