@@ -12,6 +12,7 @@
     box-sizing: border-box;
 }
 
+
 /* sharing part*/
 .position{
     width: 85%;
@@ -22,7 +23,7 @@
     display: flex;
 }
 .description{
-    font-size: 0.89rem ;
+    font-size: 1rem ;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.5rem;
 }
@@ -38,8 +39,8 @@
    
 }
 .title{
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.89rem;
+    font-weight: 800;
     line-height: 120%;
     color: white;
 }
@@ -57,8 +58,8 @@ a{
 /* header*/
 header{
     width: 100%;
-    background: linear-gradient(00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    background-color: rgba(0, 0, 0, 0.85);
+    
+    background: linear-gradient(to top, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     
 }
 
@@ -73,6 +74,8 @@ nav{
 }
 .nav-logo{
     color: rgb(230, 83, 60);
+    font-size: 2.2rem;
+    font-weight: 800;
     line-height: 120%;
 }
 .nav-items{
@@ -104,6 +107,9 @@ nav  li> a{
 }
 
 /* navbar ends*/
+  
+
+
 
 /*banner section starts*/
 .banner-section{
@@ -131,7 +137,7 @@ nav  li> a{
 }
 .banner-details h1{
     font-size: 4.4rem;
-    font-weight: 800;
+    font-weight: 900;
     color: white;
     margin-bottom: 1.75rem;
     line-height: 120%;
@@ -164,14 +170,13 @@ nav  li> a{
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     border-radius: 12px;
-    align-items: left;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     position: absolute;
     top: 9.5rem;
     right: -0.3rem;
 }
+
 .tag-2{
     width: 11.8rem;
     height: 5.5rem;
@@ -196,4 +201,84 @@ nav  li> a{
 
 
 /*banner section ends*/
+
+
+main{
+    background-color: black;
+}
+
+
+/*habit section*/
+
+.habit-section{
+    text-align: center;
+    padding-top: 6rem;
+    
+}
+.habit-detail{
+    width: 75%;
+    margin: 0 auto;
+}
+.habit-section h2{
+    margin-bottom: 0.89rem;
+}
+.habit-section p{
+    margin-bottom: 3.3rem;
+}
+.gym-classes{
+    justify-content: space-between;
+}
+.parts{
+    width: 18%;
+  
+}
+
+.topic{
+    font-size: 1.1rem;
+    font-weight: 600rem;
+    color: white;
+    margin-bottom: 0.4rem;
+
+    
+}
+.gym-img{
+    border-radius: 50%;
+    border: 0.5px solid rgba(255, 255, 255, 0.413);
+    margin-bottom: 1.8rem;
+    
+
+}
+
+/*run-section starts*/
+.run-section{
+    background-color: rgba(34, 34, 34);
+    border-radius: 1rem;
+    justify-content: space-between;
+   
+}
+.run-detail{
+
+    width: 45%;
+   
+    padding: 2.5rem 0 2.5rem 3.3rem;
+}
+.run-detail h2{
+    margin-bottom: 0.8rem;
+}
+.run-detail p{
+    margin-bottom: 2rem;
+}
+.run-img{
+    width: 39%;
+    height: auto;
+    margin: 1.89rem;
+    background-image:url(../images/run.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+
+/*run-section ends*/
 

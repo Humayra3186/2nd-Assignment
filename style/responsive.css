@@ -1,10 +1,10 @@
 /* small device*/
 @media screen and (max-width:576px){
     html{
-       font-size: 12px;
+       font-size: 14px;
     }
     .nav-logo{
-        font-size: 3.5rem;
+        font-size: 2.7rem;
     }
     .nav-items{
         width: auto;
@@ -13,7 +13,7 @@
       
     }
     nav{
-        margin-bottom: 2.5rem;
+        margin-bottom: 3.5rem;
     }
     .list{
         display: none;
@@ -21,9 +21,11 @@
     }
     .bar{
         display: block;
-       
-       font-size: 32px;
        margin-bottom: 1rem;
+    }
+    .bar i{
+        font-size: 2rem;
+
     }
     .banner-section{
        
@@ -49,6 +51,42 @@
     .tag-2 button>i{
         display: block;
     }
+
+    /*main*/
+    .habit-section{
+        padding-top: 0.2rem;
+    }
+    .habit-detail{
+        width: 100%;
+    }
+    .gym-classes{
+        flex-direction: column;
+    
+    }
+    .run-section{
+        flex-direction: column;
+    }
+    .parts{
+        width: 72%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+    
+    .run-detail{
+        width: 96%;
+        padding: 2rem auto;
+    }
+    .run-detail button{
+        width: 97%;
+    }
+    .run-img{
+        width: 86%;
+        height: 12.14rem;
+        margin: 0 auto 2rem;
+
+    }
+
+    
     
 }
 
