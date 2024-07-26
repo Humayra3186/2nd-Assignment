@@ -44,7 +44,7 @@
             <div class="banner-img">
                 <img src="./images/Images 2.png" alt="">
                 <div class="tag-1 flex">
-                    <div>
+                    <div class="tag-1-detail">
                         <h2 class="title">500+</h2>
                         <p class="description"> Free workout videos</p>
                     </div>
@@ -160,22 +160,29 @@
                 </div>
                 <div class="form">
                     <h3>Calculate your BMI</h3>
-                    <p>To calculate your BMI, Give your data here and click the Calculate button </p>
+                    <p class="description"> BMI is an estimate of body fat and a good gauge of your risk for diseases that can occur with more body fat.To calculate your BMI, Give your data here and click the Calculate button </p>
+                     
                     <form action="">
-                        <input class="input-1" type="text" placeholder="Height/cm">
-                        <input  class="input-1" type="text" placeholder="Weight/kg">
-                        <input  class="input-1" type="text" placeholder="Age">
-                        <select  class="input-1" name="" id="">
-                            <option value="">Sex</option>
+                        <div class="flex line">
+                        <input class="input-1 input" type="text" placeholder="Height/cm">
+                        <input  class="input-1 input" type="text" placeholder="Weight/kg">
+                        </div>
+                        <div class="flex line">
+                        <input  class="input-1 input" type="text" placeholder="Age">
+                        </form>
+                        <select  class="input-1 input select-1" name="" id="">
+                          <option  value="">Sex</option>
                         </select>
-                        <br>
-                        <select  class="input-2" name="" id="">
-                            <option value=""> Select an activity factor</option>
+                       </div>
+                        
+                        <select  class="input-2 input select-2" name="" id="">
+                            <option  value=""> Select an activity factor</option>
                         </select>
-                      
-                    </form>
                     
-                    <button class="btn">Calculate</button>
+                      
+                    
+                    
+                    <button class="btn bmi-btn">Calculate</button>
                 </div>
 
             </div>
@@ -187,10 +194,11 @@
             <p class="description">Our team members always try best so that you all can continue your regular exercise and keep yourselves fit.</p></div>
             <div class="team-member position">
                 <div class="team first-team">
-                    <img src="./images/trainer1.png" alt="">
+                   <img src="./images/trainer1.png" alt="">
                     <div class="name">
                         <h3>Jerome Bell</h3>
                         <p>Trainer</p>
+                    
                     </div>
                 </div>
                 <div class="team ">

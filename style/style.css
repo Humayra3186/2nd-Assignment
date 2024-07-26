@@ -23,7 +23,7 @@
     display: flex;
 }
 .description{
-    font-size: 1rem ;
+    font-size: 0.87rem ;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.5rem;
 }
@@ -179,6 +179,10 @@ nav  li> a{
     right: -0.3rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+.tag-1-detail h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
 
 .tag-2{
     width: 11.8rem;
@@ -195,8 +199,8 @@ nav  li> a{
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .tag-2-detail h3{
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 900;
     color: white;
 }
 .tag-2 button>i{
@@ -308,13 +312,14 @@ main{
     justify-content: space-between;
 }
 .table{
-    width: 40%;
-    border: 1px solid white;
+    width: 30%;
+   
   
 
 }
 table{
     border-collapse: collapse;
+    width: 100%;
 
 }
 .table h3{
@@ -325,28 +330,77 @@ table{
    
 }
 td{
-    font-size: 1rem ;
+    font-size: 0.87rem ;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.5rem;
 
 }
+th{
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+}
 td,th{
-    border: 0.2px solid rgba(255, 255, 255, 0.5);
-    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.7rem 1.2rem;
+    width: 50%;
 }
 .form{
     width: 52%;
-    border: 1px solid white;
    
-   
+    
+}
+.form h3{
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 0.87rem;
+    color: white;
+}
+.line{
+    justify-content: space-between;
+}
+.input{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5) ;
+    border: none;
+    margin-bottom: 0.7rem;
+
+}
+.select-1{
+    margin-left: 0.4rem;
+}
+.select-2,.form p{
+    margin-bottom: 2rem;
+}
+::placeholder{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5) ;
+
 }
 .input-1{
-    width: 49%;
+    width: 48.4%;
     border-radius: 8px;
+    padding: 0.8rem 1.2rem;
+    background-color:  rgba(255, 255, 255, 0.1);
+    
+   
 }
 .input-2{
     width: 100%;
     border-radius: 8px;
+    padding: 0.8rem 1.2rem;
+    background-color:  rgba(255, 255, 255, 0.1);
+    
+}
+.select-1,.select-2{
+    border-right: 1.2rem solid  rgba(255, 255, 255, 0);
+}
+.bmi-btn{
+    padding: 0.5rem 3.5rem;
+    
 }
 
 /* BMI section ends*/
@@ -359,7 +413,7 @@ td,th{
 
 }
 .team-detail{
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
 }
 .team-section h2{
@@ -387,11 +441,12 @@ td,th{
     width: 98.4%;
     height: 17rem;
 }
+
 .team img{
     width: 100%;
     height: 97.4%;
     border-radius: 16px;
-    filter: brightness(90%);
+    filter: brightness(80%);
     margin-bottom: 0;
 }
 .name{

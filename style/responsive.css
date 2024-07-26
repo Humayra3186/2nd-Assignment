@@ -1,7 +1,8 @@
-/* small device*/
+    /* small device*/
+
 @media screen and (max-width:576px){
     html{
-       font-size: 14px;
+       font-size: 12px;
     }
     .nav-logo{
         font-size: 2 rem;
@@ -51,10 +52,15 @@
     }
     .banner-img{
         width: 100%;
+        padding-top: 4rem;
+    }
+    .tag-1{
+        top: 7rem;
+        right: 4%;
     }
     .tag-2{
         left: 0rem;
-        bottom: 10rem;
+        bottom: 20.5rem;
 
     }
     .tag-2 button>i{
@@ -85,7 +91,7 @@
         width: 100%;
         padding: 2rem;
     }
-    .run-detail button{
+    .run-detail button,.form{
         width: 100%;
     }
     .run-img{
@@ -94,13 +100,24 @@
         margin: 0 auto 2rem;
 
     }
+    .bmi-content{
+        flex-direction: column;
+    }
+    .bmi-heading{
+        width: 85%;
+        padding-bottom: 2.6rem;
+    }
+    .table{
+        width: 85%;
+        margin-bottom: 3.5rem;
+    }
     .team-member{
         height: auto;
         grid-template-columns: repeat(1,1fr);
         gap:0;
     }
     .team{
-        height: 18rem;
+        height: 20rem;
         margin-bottom: 1rem;
     }
     .team-detail{
@@ -122,7 +139,7 @@
     
 }
 
-/*large device*/
+    /*large device*/
 @media screen and (min-width:993px) and (max-width:1500px)
 {
 
@@ -132,6 +149,7 @@
     }
   
 }
+  /* x-large device*/
 @media screen and (min-width:1500.01px){
   html{
     font-size: 20px;
