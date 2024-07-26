@@ -39,7 +39,10 @@
     }
     .banner-btn{
         width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
+    
     .join-btn, .download-btn{
         width: 48%;
     }
@@ -51,7 +54,7 @@
     }
     .tag-2{
         left: 0rem;
-        bottom: 17rem;
+        bottom: 10rem;
 
     }
     .tag-2 button>i{
