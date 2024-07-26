@@ -4,7 +4,7 @@
        font-size: 14px;
     }
     .nav-logo{
-        font-size: 2.7rem;
+        font-size: 2 rem;
     }
     .nav-items{
         width: auto;
@@ -37,6 +37,12 @@
     .banner-title{
         width: 80%;
     }
+    .banner-btn{
+        width: 100%;
+    }
+    .join-btn, .download-btn{
+        width: 48%;
+    }
     .banner-details h1{
         font-size: 3.3rem;
     }
@@ -45,7 +51,7 @@
     }
     .tag-2{
         left: 0rem;
-        bottom: 18rem;
+        bottom: 17rem;
 
     }
     .tag-2 button>i{
@@ -73,19 +79,42 @@
     }
     
     .run-detail{
-        width: 96%;
-        padding: 2rem auto;
+        width: 100%;
+        padding: 2rem;
     }
     .run-detail button{
-        width: 97%;
+        width: 100%;
     }
     .run-img{
-        width: 86%;
+        width: 83%;
         height: 12.14rem;
         margin: 0 auto 2rem;
 
     }
-
+    .team-member{
+        height: auto;
+        grid-template-columns: repeat(1,1fr);
+        gap:0;
+    }
+    .team{
+        height: 18rem;
+        margin-bottom: 1rem;
+    }
+    .team-detail{
+        width: 92%;
+    }
+    .last-team{
+        margin-bottom: 0rem;
+    }
+    .first-team{
+        margin-top: 0.3rem;
+    }
+    .team img{
+        height: 95%;
+        width: 99%;
+    }
+    
+    
     
     
 }
