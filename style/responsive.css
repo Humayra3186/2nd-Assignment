@@ -55,8 +55,9 @@
         padding-top: 4rem;
     }
     .tag-1{
+        
         top: 7rem;
-        right: 4%;
+        right: 3.7%;
     }
     .tag-2{
         left: 0rem;
@@ -100,7 +101,7 @@
         margin: 0 auto 2rem;
 
     }
-    .bmi-content{
+    .bmi-content,.classes-example{
         flex-direction: column;
     }
     .bmi-heading{
@@ -108,9 +109,17 @@
         padding-bottom: 2.6rem;
     }
     .table{
-        width: 85%;
+        width: 88%;
         margin-bottom: 3.5rem;
     }
+    /*classes*/
+    .colum-1,.colum-2,.classes-heading{
+        width: 100%;
+    }
+    .colum-2{
+        margin-top: 0rem;
+    }
+    
     .team-member{
         height: auto;
         grid-template-columns: repeat(1,1fr);
@@ -132,6 +141,19 @@
     .team img{
         height: 95%;
         width: 99%;
+    }
+
+    /* footer*/
+    .footer-section{
+        flex-direction: column;
+    }
+    .fitness{
+        width: 90%;
+        margin-bottom: 1.2rem;
+    }
+    .get-start{
+        width: 50%;
+        margin-bottom: 1.2rem;
     }
     
     
