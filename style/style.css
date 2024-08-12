@@ -46,7 +46,7 @@ html{
     line-height: 1.4rem;
     color: white;
     background-color: rgb(230, 83, 60);
-    padding: 0.7rem 2rem;
+    padding: 0.6rem 2rem;
     border: none;
     border-radius: 2rem;
    
@@ -89,7 +89,7 @@ nav{
 }
 .nav-logo{
     color: rgb(230, 83, 60);
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-weight: 800;
     line-height: 120%;
 }
