@@ -122,6 +122,10 @@ nav  li> a{
     display: none;
 }
 
+#list-btn{
+    font-weight: 700;
+}
+
 /* navbar ends*/
   
 
