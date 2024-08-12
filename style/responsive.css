@@ -1,11 +1,13 @@
     /* small device*/
 
 @media screen and (max-width:576px){
-    html{
-       font-size: 12px;
+   html{
+       font-size: 3vw;
     }
+    
+        /*navbar*/
     .nav-logo{
-        font-size: 2 rem;
+        font-size: 2.8rem;
     }
     .nav-items{
         width: auto;
@@ -28,12 +30,17 @@
         font-size: 2rem;
 
     }
+       
+       /*banner section*/
     .banner-section{
        
         flex-direction: column;
     }
     .banner-details{
         width: 100%;
+    }
+    .shape{
+        font-size: 6rem;
     }
     .banner-title{
         width: 80%;
@@ -46,6 +53,8 @@
     
     .join-btn, .download-btn{
         width: 48%;
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
     }
     .banner-details h1{
         font-size: 3.3rem;
@@ -69,6 +78,8 @@
     }
 
     /*main*/
+
+        /*habit section*/
     .habit-section{
         padding-top: 0.2rem;
     }
@@ -79,14 +90,30 @@
         flex-direction: column;
     
     }
+    .parts{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+    .parts p{
+        margin-bottom: 1rem;
+    }
+     .parts .last{
+        margin-bottom: 3rem;
+    }
+    .gym-img{
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+    
+
+       /*run section*/
     .run-section{
         flex-direction: column;
+        
     }
-    .parts{
-        width: 72%;
-        margin: 0 auto;
-        margin-bottom: 1.5rem;
-    }
+    
     
     .run-detail{
         width: 100%;
@@ -95,31 +122,60 @@
     .run-detail button,.form{
         width: 100%;
     }
+    .run-btn{
+        padding: 0.89rem;
+        font-size: 1.2rem;
+    }
     .run-img{
         width: 83%;
         height: 12.14rem;
         margin: 0 auto 2rem;
+ 
+    } 
 
-    }
+         /*bmi section*/
     .bmi-content,.classes-example{
         flex-direction: column;
     }
     .bmi-heading{
         width: 85%;
+        margin-left: 2.3rem;
         padding-bottom: 2.6rem;
     }
     .table{
         width: 88%;
         margin-bottom: 3.5rem;
     }
-    /*classes*/
-    .colum-1,.colum-2,.classes-heading{
+    .bmi-btn{
+        width: 60%;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+
+        /*classes*/
+    .colum-1,.colum-2{
         width: 100%;
     }
-    .colum-2{
-        margin-top: 0rem;
+    .testimonial-heading{
+        width: 85%;
     }
-    
+    .testimonial-parts{
+        flex-direction: column;
+    }
+    .review{
+        height: 29rem;
+    }
+    .last-one, .last-two{
+        margin-bottom: 3rem;
+    }
+    .review-btn{
+        width: 70%;
+    }
+    .testimonial-btn{
+        padding-top: 0;
+    }
+       /*team section*/
     .team-member{
         height: auto;
         grid-template-columns: repeat(1,1fr);
@@ -146,15 +202,24 @@
     /* footer*/
     .footer-section{
         flex-direction: column;
+        padding: 4rem 0 2rem;
     }
     .fitness{
         width: 90%;
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.4rem;
     }
     .get-start{
         width: 50%;
         margin-bottom: 1.2rem;
     }
+    .copy-right p{
+    
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+       
+     }
+     
+     
     
     
     
@@ -171,10 +236,4 @@
     }
   
 }
-  /* x-large device*/
-@media screen and (min-width:1500.01px){
-  html{
-    font-size: 20px;
-  }
-    
-}
+ 

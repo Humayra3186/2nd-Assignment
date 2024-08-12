@@ -5,6 +5,10 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face{
+    font-family: Miama;
+    src: url(/Miama.otf);
+}
 
 *{
     margin: 0;
@@ -12,11 +16,17 @@
     box-sizing: border-box;
 }
 
+html{
+
+  font-size: 1.2vw;
+}
+
 
 /* sharing part*/
 .position{
     width: 85%;
     margin: 0 auto;
+   
 
 }
 .flex{
@@ -55,7 +65,7 @@ a{
     text-decoration: none;
 }
 
-/* header*/
+       /* header*/
 header{
     width: 100%;
     
@@ -65,7 +75,7 @@ header{
     
 }
 
-/* navbar start*/
+       /* navbar start*/
 nav{
     
     padding: 3.5rem 0 1.5rem;
@@ -113,7 +123,7 @@ nav  li> a{
 
 
 
-/*banner section starts*/
+           /*banner section starts*/
 .banner-section{
     justify-content: space-between;
     height: auto;
@@ -149,8 +159,9 @@ nav  li> a{
     margin-bottom: 1.75rem;
 }
 .shape{
+    font-size: 9rem;
     font-weight: 100;
-    font-family: "Dancing Script", cursive;
+    font-family: miama;
   
     
     
@@ -208,7 +219,7 @@ nav  li> a{
 }
 
 
-/*banner section ends*/
+      /*banner section ends*/
 
 
 main{
@@ -216,7 +227,7 @@ main{
 }
 
 
-/*habit section*/
+    /*habit section*/
 
 .habit-section{
     text-align: center;
@@ -231,66 +242,84 @@ main{
     margin-bottom: 0.89rem;
 }
 .habit-section p{
-    margin-bottom: 3.3rem;
+    margin-bottom: 5.7rem;
 }
 .gym-classes{
     justify-content: space-between;
 }
 .parts{
     width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   
 }
 
 .topic{
     font-size: 1.1rem;
-    font-weight: 600rem;
+    font-weight: 600;
     color: white;
     margin-bottom: 0.4rem;
 
     
 }
 .gym-img{
-    border-radius: 50%;
-    border: 0.5px solid rgba(255, 255, 255, 0.413);
+    width: 11.25rem;
+    height: 11.25rem;
     margin-bottom: 1.8rem;
     
 
 }
+.gym-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 0.5px solid rgba(255, 255, 255, 0.413);
+}
 
-/*run-section starts*/
+         /*run-section starts*/
 .run-section{
     background-color: rgba(34, 34, 34);
     border-radius: 1rem;
     justify-content: space-between;
+    align-items: center;
    
 }
 .run-detail{
 
     width: 45%;
-   
-    padding: 2.5rem 0 2.5rem 3.3rem;
+    height: auto;
+    padding-left:3.3rem ;
 }
 .run-detail h2{
     margin-bottom: 0.8rem;
+    line-height: 120%;
 }
 .run-detail p{
     margin-bottom: 2rem;
 }
+.run-btn{
+   
+    padding: 0.6rem 3.9rem;
+}
 .run-img{
-    width: 39%;
-    height: auto;
+    width: 22.8rem;
+   height: 19rem;
     margin: 1.89rem;
-    background-image:url(../images/run.jpg) ;
+    background-image:url(../images/run2.jpg) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 1rem;
+  
+   
 }
 
 
-/*run-section ends*/
+      /*run-section ends*/
 
-/* BMI section*/
+      /* BMI section*/
 
 .bmi-heading{
     width: 55%;
@@ -397,81 +426,19 @@ td,th{
 }
 .select-1,.select-2{
     border-right: 1.2rem solid  rgba(255, 255, 255, 0);
+    outline: none;
+    cursor: pointer;
 }
 .bmi-btn{
     padding: 0.5rem 3.5rem;
     
 }
-
-/* BMI section ends*/
-
-/*fitness classes is started*/
-.classes{
-    padding-top: 5.5rem;
-}
-.classes-heading{
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 5.7rem;
-   
-}
-.classes-heading h3{
-    margin-bottom: 1.3rem;
-}
-.classes-heading p{
-    margin-bottom: 1.89rem;
-}
-.classes-example{
-    justify-content: space-between;
-}
-.class-btn{
-    font-size: 0.9rem;
-    padding: 0.5rem 1.8rem;
-    margin-top: 1.5rem;
-}
- 
-.colum-1,.colum-2{
-    width: 48.5%;
-}
-.colum-2{
-    margin-top: 7rem;
-}
-
-
-.exercise{
-    background-color: rgba(34, 34, 34);
-    margin-bottom: 2rem;
-    border-bottom: 2px solid  rgb(230, 83, 60);
-    
-
-}
-
-.detail{
-    width: 50%;
-   padding:1.7rem 1rem ;
- 
-}
-.detail h3{
-    font-size: 1.75rem;
-    font-weight: 800;
-    margin-bottom: 0.87rem;
+.select-item{
+    background-color: rgba(255, 255, 255, 0.1) ;
     color: white;
 }
-.img{
-    width: 50%;
-    height: 19.5rem;
-    padding: 1rem;
-    
-}
-.img img{
-    width: 100%;
-    height: 100%;
-    border-radius: 0.7rem;
-}
 
-
-
+/* BMI section ends*/
 
 
 
@@ -518,7 +485,7 @@ td,th{
     width: 100%;
     height: 97.4%;
     border-radius: 16px;
-    filter: brightness(80%);
+    filter: brightness(75%);
     margin-bottom: 0;
 }
 .name{
@@ -542,6 +509,127 @@ td,th{
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.5rem;
 }
+
+
+       /*fitness testimonial is started*/
+.testimonial{
+    padding: 0 0 5rem;
+}
+.testimonial-section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+   
+
+}
+
+.testimonial-section::before{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.773);
+}
+.testimonial-parts{
+    
+    justify-content: space-between;
+    
+}
+
+.testimonial-heading{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+   
+}
+.testimonial-heading h3{
+    margin-bottom: 1.3rem;
+}
+.testimonial-heading p{
+    margin-bottom: 1rem;
+}
+
+
+ 
+.colum-1,.colum-2{
+    width: 48.5%;
+    
+}
+
+
+
+
+
+.review{
+    height: 25rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 8px 8px 0;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(1px);
+    background: rgba(48, 48, 48, 0.436);
+    border-radius: 0.75rem;
+    border-bottom: 1px solid  rgb(230, 83, 60);
+    margin-bottom: 3rem;
+    
+    
+  
+  
+}
+.last-one, .last-two{
+    margin-bottom: 0;
+}
+
+
+.review-i{
+    font-size: 1.2rem;
+    color: rgb(230, 83, 60) ;
+}
+.review-detail{
+   
+   padding:1rem ;
+   width: 48.5%; 
+ 
+}
+.review h3{
+    font-size: 1.55rem;
+    font-weight: 600;
+    margin-bottom: 0.87rem;
+    color: white;
+    
+}
+.img{
+    width: 48%;
+    height: 18rem;
+    padding: 1.6rem;
+    
+}
+.img img{
+    width: 100%;
+   height: 100%;
+    border-radius: 5%;
+   
+   
+}
+.testimonial-btn{
+    padding: 3rem 0 0;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+}
+.review-btn{
+    width: 20%;
+    cursor: pointer;
+    
+}
+
+
 
 
 
