@@ -56,7 +56,12 @@
     .join-btn, .download-btn{
         width: 48%;
         padding: 1rem 2rem;
+       
+    }
+    .join-btn a, .download-btn a{
+         
         font-size: 1.2rem;
+
     }
     .banner-details h1{
         font-size: 3.3rem;
@@ -126,7 +131,11 @@
     }
     .run-btn{
         padding: 0.89rem;
+        
+    }
+    .run-btn a{
         font-size: 1.2rem;
+
     }
     .run-img{
         width: 83%;
@@ -151,36 +160,23 @@
     .bmi-btn{
         width: 60%;
         padding: 1rem;
+        
+    }
+    .bmi-btn a{
         font-size: 1.2rem;
+
     }
 
 
-        /*classes*/
-    .colum-1,.colum-2{
-        width: 100%;
-    }
-    .testimonial-heading{
-        width: 85%;
-    }
-    .testimonial-parts{
-        flex-direction: column;
-    }
-    .review{
-        height: 29rem;
-    }
-    .last-one, .last-two{
-        margin-bottom: 3rem;
-    }
-    .review-btn{
-        width: 70%;
-    }
-    .testimonial-btn{
-        padding-top: 0;
-    }
        /*team section*/
     .team-member{
+       
         height: auto;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-areas:
+         "first-m  first-m   first-m"
+         " se-m    se-m      se-m"
+         "trd-m    trd-m     trd-m"
+         "last-m   last-m    last-m" ;
         gap:0;
     }
     .team{
@@ -200,7 +196,58 @@
         height: 95%;
         width: 99%;
     }
+    .name h3{
+        font-size: 1.5rem;
+    }
+    .will{
+        display: none;
+    }
+    .name-two{
+        display: block;
+    }
+    .first-team, .fth-team{
+        display: none;
+    }
+    .s-team{
+        grid-area: first-m;
+        margin-top: 0.5rem;
+        
+    }
+    .fith-team{
+        grid-area: se-m;
+    }
+    .trd-team{
+        grid-area: trd-m;
 
+    }
+    .last-team{
+        grid-area:last-m ;
+    }
+
+     
+
+     /*classes*/
+        .colum-1,.colum-2{
+            width: 100%;
+        }
+        .testimonial-heading{
+            width: 85%;
+        }
+        .testimonial-parts{
+            flex-direction: column;
+        }
+        .review{
+            height: 29rem;
+        }
+        .last-one, .last-two{
+            margin-bottom: 3rem;
+        }
+        .review-btn{
+            width: 70%;
+        }
+        .testimonial-btn{
+            padding-top: 0;
+        }
     /* footer*/
     .footer-section{
         flex-direction: column;

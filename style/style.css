@@ -41,16 +41,19 @@ html{
     line-height: 1.5rem;
 }
 .btn{
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.4rem;
-    color: white;
+    
     background-color: rgb(230, 83, 60);
     padding: 0.6rem 2rem;
     border: none;
     border-radius: 2rem;
-    cursor: pointer;
    
+}
+.btn a{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: white;
+
 }
 .title{
     font-size: 2.89rem;
@@ -68,6 +71,7 @@ html{
 a{
     text-decoration: none;
 }
+
 
        /* header*/
 header{
@@ -175,15 +179,17 @@ nav  li> a{
     
 }
 .download-btn{
-    font-size: 1rem;
-    font-weight: 500;
-    color: white;
     padding: 0.7rem 2rem;
     background-color: transparent;
     border: 0.7px solid white;
     border-radius: 2rem;
     margin-left: 0.7rem;
 
+}
+.download-btn a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
 }
 .tag-1{
     width: 11.8rem;
@@ -496,7 +502,7 @@ td,th{
     filter: brightness(75%);
     margin-bottom: 0;
 }
-.name{
+.name,.name-two{
     width: auto;
     position: relative;
     top: -4rem;
@@ -505,15 +511,18 @@ td,th{
 
 
 }
-.name h3{
-    font-size: 1.1rem;
+.name-two{
+    display: none;
+}
+.name h3,.name-two h3{
+    font-size: 1.4rem;
     color: white;
     font-weight: 700;
     margin-bottom:0.1rem ;
   
 }
-.name p{
-    font-size: 1rem;
+.name p, .name-two p{
+    font-size: 1.02rem;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.5rem;
 }
