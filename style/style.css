@@ -46,6 +46,7 @@ html{
     padding: 0.6rem 2rem;
     border: none;
     border-radius: 2rem;
+    cursor: pointer;
    
 }
 .btn a{
@@ -184,6 +185,7 @@ nav  li> a{
     border: 0.7px solid white;
     border-radius: 2rem;
     margin-left: 0.7rem;
+    cursor: pointer;
 
 }
 .download-btn a{
@@ -434,14 +436,16 @@ td,th{
 .input-2{
     width: 100%;
     border-radius: 8px;
-    padding: 0.8rem 1.2rem;
+    
     background-color:  rgba(255, 255, 255, 0.1);
     
 }
 .select-1,.select-2{
     border-right: 1.2rem solid  rgba(255, 255, 255, 0);
+    padding: 0.8rem  1.2rem  0.8rem  0.9rem;
     outline: none;
     cursor: pointer;
+    
 }
 .bmi-btn{
     padding: 0.5rem 3.5rem;
@@ -457,6 +461,8 @@ td,th{
 
 
 /*Team-section is here*/
+
+  
 .team-section{
     padding-top: 5.5rem;
     text-align: center;
@@ -592,13 +598,14 @@ td,th{
     backdrop-filter: blur(1px);
     background: rgba(48, 48, 48, 0.436);
     border-radius: 0.75rem;
-    border-bottom: 1px solid  rgb(230, 83, 60);
+   border-bottom: 1px solid  rgb(230, 83, 60);
     margin-bottom: 3rem;
     
     
   
   
 }
+
 .last-one, .last-two{
     margin-bottom: 0;
 }

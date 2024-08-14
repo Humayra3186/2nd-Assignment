@@ -5,6 +5,7 @@
        font-size: 3vw;
     }
     
+    
         /*navbar*/
     .nav-logo{
         font-size: 2.8rem;
@@ -58,7 +59,7 @@
         padding: 1rem 2rem;
        
     }
-    .join-btn a, .download-btn a{
+    .join-btn a, .download-btn a , .review-btn a{
          
         font-size: 1.2rem;
 
@@ -129,7 +130,7 @@
     .run-detail button,.form{
         width: 100%;
     }
-    .run-btn{
+    .run-btn , .review-btn{
         padding: 0.89rem;
         
     }
